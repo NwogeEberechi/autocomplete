@@ -1,0 +1,12 @@
+.autocomplete-suggestions {
+    width: 100%;
+    margin: 0;
+    z-index: 99;
+    padding: 0px 0px;
+    list-style: none;
+    border: 1px solid #f4f3f6;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 2px 8px 1px rgb(64 60 67 / 24%);
+  }
+  

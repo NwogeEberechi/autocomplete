@@ -1,0 +1,20 @@
+.autocomplete-suggestion {
+    padding: 8px;
+    display: flex;
+    /* align-items: center; */
+  }
+  
+  .autocomplete-suggestion:hover {
+    background-color: #f4f3f6;
+    cursor: pointer;
+  }
+  
+  .autocomplete-suggestion strong {
+    color: #000;
+    border-radius: 8px;
+  }
+  .highlight {
+    background-color: yellow;
+    padding: 0 5px;
+  }
+  
