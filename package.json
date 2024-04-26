@@ -20,7 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "coverage": "react-scripts test --coverage --watchAll"
   },
   "eslintConfig": {
     "extends": [
@@ -38,6 +39,13 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "!src/{(reportWebVitals),}.ts",
+      "!src/{(index),}.tsx",
+      "!src/{(react-app-env.d),}.ts"
     ]
   }
 }
